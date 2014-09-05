@@ -10,7 +10,7 @@ Template Name: Home Page (Full Width)
  * and that other 'pages' on your WordPress site will use a
  * different template.
  *
- * @package HumanDroid
+ * @package Professionl
  */
 
 get_header(); ?>

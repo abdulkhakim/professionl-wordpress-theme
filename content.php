@@ -1,6 +1,6 @@
 <?php
 /**
- * @package HumanDroid
+ * @package Professionl
  */
 ?>
 
@@ -31,7 +31,7 @@
                <?php the_content(); ?>
 	        </div>
             <footer class="entry-meta">
-			        <?php the_tags('<p class="post-tags"><span>'.__('TAGS:','human-droid').'</span> <span class="label label-default">','</span> <span class="label label-default">','</span></p>'); ?>
+			        <?php the_tags('<p class="post-tags"><span>'.__('TAGS:','professionl').'</span> <span class="label label-default">','</span> <span class="label label-default">','</span></p>'); ?>
                 <div>
                     <a href="<?php comments_link(); ?>"><i class="fa fa-comment"></i> <?php comments_number( 'Leave a Comment', '1 Comment', '% Comments' ); ?></a>
                 </div>
@@ -45,7 +45,7 @@
                <?php the_excerpt(); ?>
 	        </div><!-- .entry-summary -->
             <div class="more-tag">
-                <a class="ghost-button" href="<?php the_permalink(); ?>" ><?php echo __( 'Read More', 'human-droid' ) ?> &rarr;</a>
+                <a class="ghost-button" href="<?php the_permalink(); ?>" ><?php echo __( 'Read More', 'professionl' ) ?> &rarr;</a>
             </div>
             <div class="clearfix"></div>
     <?php

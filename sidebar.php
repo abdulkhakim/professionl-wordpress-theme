@@ -2,7 +2,7 @@
 /**
  * The Sidebar containing the main widget areas.
  *
- * @package HumanDroid
+ * @package Professionl
  */
 ?>
             </div><!--col-->    

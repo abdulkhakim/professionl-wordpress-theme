@@ -2,7 +2,7 @@
 /**
  * The Template for displaying all single posts.
  *
- * @package HumanDroid
+ * @package Professionl
  */
 
 get_header(); ?>

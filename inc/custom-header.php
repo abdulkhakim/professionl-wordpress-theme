@@ -12,7 +12,7 @@
 	<?php endif; // End header image check. ?>
 
  *
- * @package HumanDroid
+ * @package Professionl
  */
 
 /**
@@ -22,7 +22,7 @@
  * @uses developr_admin_header_style()
  * @uses developr_admin_header_image()
  *
- * @package HumanDroid
+ * @package Professionl
  */
 function developr_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'developr_custom_header_args', array(

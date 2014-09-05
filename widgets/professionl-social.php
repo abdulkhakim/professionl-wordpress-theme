@@ -1,22 +1,22 @@
 <?php
 /*
-	HumanDroid Social Follow Widget
+	Professionl Social Follow Widget
 	
 	License: GNU General Public License v3.0
 	License URI: http://www.gnu.org/licenses/gpl-3.0.html
 	
 	Copyright: (c) 2013 Kanishk Kunal - http://kanishkkunal.in
 	
-		@package human-droid
+		@package professionl
 		@version 1.0
 */
 
-class HumanDroidSocial extends WP_Widget {
+class ProfessionlSocial extends WP_Widget {
 
 /*  Constructor
 /* ------------------------------------ */
-	function HumanDroidSocial() {
-		parent::__construct( false, 'HumanDroid Social Buttons', array('description' => 'Displays Social Follow buttons set in the Theme Options -> Social Links', 'classname' => 'widget_developr_social') );;	
+	function ProfessionlSocial() {
+		parent::__construct( false, 'Professionl Social Buttons', array('description' => 'Displays Social Follow buttons set in the Theme Options -> Social Links', 'classname' => 'widget_developr_social') );;	
 	}
 	
 /*  Widget
@@ -52,7 +52,7 @@ class HumanDroidSocial extends WP_Widget {
 		$instance = wp_parse_args( (array) $instance, $defaults );
 ?>
 
-	<div class="human-droid-options-social">
+	<div class="professionl-options-social">
 		<p>
 			<label for="<?php echo $this->get_field_id('title'); ?>">Title:</label>
 			<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr($instance["title"]); ?>" />
@@ -69,7 +69,7 @@ class HumanDroidSocial extends WP_Widget {
 if ( ! function_exists( 'develop_register_social_widget' ) ) {
 
 	function develop_register_social_widget() { 
-		register_widget( 'HumanDroidSocial' );
+		register_widget( 'ProfessionlSocial' );
 	}
 	
 }

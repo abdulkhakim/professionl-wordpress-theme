@@ -1,8 +1,8 @@
 <?php
 /**
- * HumanDroid Theme Customizer
+ * Professionl Theme Customizer
  *
- * @package HumanDroid
+ * @package Professionl
  */
 
 /**
