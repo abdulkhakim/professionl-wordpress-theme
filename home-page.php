@@ -20,8 +20,8 @@ get_header(); ?>
             <div class="home-hero">
                 <img class="hero-img" src="<?php echo ot_get_option('promo-image'); ?>" alt="<?php bloginfo('name') ?>"/>
                 <div class="hero-intro container">
-                    <h2>
-                        <?php echo ot_get_option('promo-text'); ?>
+                    <h2 class="animated fadeInDown">
+                            <?php echo ot_get_option('promo-text'); ?>
                     </h2>
                 </div>
             </div>

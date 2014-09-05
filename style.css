@@ -201,7 +201,6 @@ a:focus {
   position: absolute;
   bottom: 0;
   left: 0;
-  margin-top: 12px;
 }
 .hero-intro p {
   margin: 0;
@@ -216,12 +215,13 @@ a:focus {
   color: #eaeaea;
   padding: 24px;
   font-size: 24px;
+  margin-top: 0;
   margin-bottom: 0;
   font-weight: 300;
-  background: rgba(0, 0, 0, 0.4);
   width: 100%;
   display: inline-block;
   border-radius: 4px;
+  background: rgba(0, 0, 0, 0.4);
 }
 .profile-image {
   width: 200px;
