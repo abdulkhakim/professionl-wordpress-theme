@@ -26,7 +26,11 @@
     
     <?php do_action( 'before' ); ?>
       <header>
-          <div class="container">
+          <div class="container">              
+              <div id="header-widget" class="widget-area">
+                <?php dynamic_sidebar( 'header' ) ?>
+              </div>
+
                 <a href="<?php echo home_url(); ?>" rel="home">
                             <?php if(!ot_get_option('custom-image')) {
                                         bloginfo('name'); 
@@ -38,6 +42,7 @@
                 </a>
               
               <?php if ( !ot_get_option('site-description') ): ?><h2 class="site-description"><?php bloginfo( 'description' ); ?></h2><?php endif; ?>
+
           </div>
       </header>
       <div id="topbar">

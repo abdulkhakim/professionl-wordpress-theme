@@ -90,6 +90,16 @@ add_action( 'after_setup_theme', 'developr_setup' );
  */
 function developr_widgets_init() {
 
+    
+	register_sidebar( array(
+		'name'          => __( 'Header', 'professionl' ),
+		'id'            => 'header',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h5 class="widget-title">',
+		'after_title'   => '</h5>',
+	) );
+
     register_sidebar( array(
 		'name'          => __( 'Primary Sidebar (Right)', 'superdev' ),
 		'id'            => 'primary-sidebar',
