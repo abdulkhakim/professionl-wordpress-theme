@@ -45,7 +45,7 @@
                <?php the_excerpt(); ?>
 	        </div><!-- .entry-summary -->
             <div class="more-tag">
-                <a class="ghost-button" href="<?php the_permalink(); ?>" ><?php echo __( 'Read More', 'professionl' ) ?> &rarr;</a>
+                <a class="ghost-button" href="<?php the_permalink(); ?>" ><?php echo __( 'Read More', 'professionl' ) ?></a>
             </div>
             <div class="clearfix"></div>
     <?php

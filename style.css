@@ -42,7 +42,7 @@ table {
   /* Prevent scroll on narrow devices */
 
   line-height: 1.685;
-  color: #444;
+  color: #555;
 }
 h1,
 .h1,
@@ -123,7 +123,7 @@ a:focus {
 /*header */
 #header-widget {
   float: right;
-  margin-top: 12px;
+  margin-top: 30px;
   margin-right: 20px;
   padding: 0 20px;
   text-align: right;
@@ -132,22 +132,29 @@ a:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
 #header-widget .widget {
-  color: #444;
+  color: #2C3E50;
   margin: 0;
 }
 #header-widget p {
   font-size: 15px;
   margin-bottom: 10px;
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
 }
 #header-widget .fa {
   margin-left: 8px;
 }
 #topbar {
   margin-top: 10px;
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
 }
 .ghost-button {
   background: #2fa4e7;
   border: 1px solid #2fa4e7;
+  border-radius: 4px;
   color: #fff;
   font-size: 17px;
   padding: 7px 12px;
@@ -280,6 +287,9 @@ a:focus {
   margin-left: 16px;
   margin-top: 0px;
   margin-bottom: 12px;
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
 }
 .social-flare-container {
   bottom: -20px;
@@ -337,12 +347,12 @@ a:focus {
   padding-top: 0;
 }
 .site-page-home {
-  padding: 0 20px;
   margin-top: -40px;
   margin-bottom: -40px;
 }
 .site-page-home .entry-content img.aligncenter {
   margin-top: 0px;
+  width: 100%;
 }
 .site-main article {
   position: relative;
@@ -970,6 +980,7 @@ div.sharedaddy h3.sd-title {
   color: #2fa4e7;
   border: none!important;
   border: 1px solid #2fa4e7 !important;
+  border-radius: 4px;
 }
 .wp-pagenavi a:hover,
 .wp-pagenavi a:active,
@@ -977,6 +988,7 @@ div.sharedaddy h3.sd-title {
   background: #2fa4e7;
   border: none!important;
   border: 1px solid #2fa4e7 !important;
+  border-radius: 4px;
 }
 /* Footer */
 .site-footer {

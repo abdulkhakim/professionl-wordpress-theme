@@ -53,7 +53,7 @@ body, table {
     background-color: @body-color;
     overflow-x: hidden; /* Prevent scroll on narrow devices */
     line-height: 1.685;
-    color: #444;
+    color: #555;
     .body-font();
 }
 
@@ -110,7 +110,7 @@ a:hover, a:focus {
 
 #header-widget {
     float: right;
-    margin-top: 12px;
+    margin-top: 30px;
     margin-right: 20px;
     padding: 0 20px;
     text-align: right;
@@ -120,13 +120,14 @@ a:hover, a:focus {
 }
 
 #header-widget .widget {
-    color: #444;
+    color: #2C3E50;
     margin: 0;
 }
 
 #header-widget p {
     font-size: 15px;
     margin-bottom: 10px;
+    .heading-font;
 }
 
 #header-widget .fa {
@@ -135,11 +136,13 @@ a:hover, a:focus {
 
 #topbar {
     margin-top: 10px;
+    .heading-font;
 }
 
 .ghost-button {
     background: @link-color;
     border: 1px solid @link-color;
+    border-radius: 4px;
     color: #fff;
     font-size: 17px;
     padding: 7px 12px;
@@ -296,6 +299,7 @@ font-size: 21px;
     margin-left: 16px;
     margin-top: 0px;
     margin-bottom: @padding / 2;
+    .heading-font;
 }
 
 .social-flare-container {
@@ -363,13 +367,13 @@ border-bottom: 1px dotted #ddd;
 }
 
 .site-page-home {
-    padding: 0 20px;
     margin-top: -40px;
     margin-bottom: -40px;
 }
 
 .site-page-home .entry-content img.aligncenter {
     margin-top: 0px;
+    width: 100%;
 }
 
 .site-main article {
@@ -969,10 +973,10 @@ div.sharedaddy h3.sd-title {
 .wp-pagenavi a:active,
 .wp-pagenavi span.current { color: #fff!important; font-weight: normal!important; }
 
-.wp-pagenavi a { color: @link-color; border: none!important; border: 1px solid @link-color!important; }
+.wp-pagenavi a { color: @link-color; border: none!important; border: 1px solid @link-color!important; border-radius: 4px; }
 .wp-pagenavi a:hover,
 .wp-pagenavi a:active,
-.wp-pagenavi span.current { background: @link-color; border: none!important; border: 1px solid @link-color!important; }
+.wp-pagenavi span.current { background: @link-color; border: none!important; border: 1px solid @link-color!important; border-radius: 4px }
 
 /* Footer */
 .site-footer {

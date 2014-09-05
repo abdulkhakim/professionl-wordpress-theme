@@ -46,9 +46,9 @@
           </div>
       </header>
       <div id="topbar">
-          <div class="container">
+          <div class="">
             <?php if (has_nav_menu('primary')): ?>
-            <nav class="navbar navbar-default" role="navigation">
+            <nav class="navbar navbar-default navbar-static-top" role="navigation">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 
                     <div class="navbar-header">
