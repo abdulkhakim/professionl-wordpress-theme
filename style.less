@@ -27,7 +27,7 @@ and Blueprint http://www.blueprintcss.org/
 
 @dark-color: #181818;
 @link-color: #2fa4e7;
-@body-color: #fff;
+@body-color: #eaeaea;
 @content-background: #fff;
 @padding: 24px;
 @content-width: 1200px;
@@ -35,6 +35,7 @@ and Blueprint http://www.blueprintcss.org/
 .heading-font {
     line-height: 1.25;
     font-weight: 400;
+    font-family: 'Lato', sans-serif;
 }
 
 .body-font {
@@ -91,6 +92,12 @@ a:hover, a:focus {
   color: darken(@link-color, 5%);
 }
 
+#page {
+    background: #fff;
+    .maxed-width;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+}
+
 .container {
     .maxed-width;
 }
@@ -113,6 +120,7 @@ a:hover, a:focus {
 }
 
 #header-widget p {
+    font-size: 15px;
     margin-bottom: 10px;
 }
 
@@ -121,7 +129,9 @@ a:hover, a:focus {
 }
 
 .ghost-button {
+    background: @link-color;
     border: 1px solid @link-color;
+    color: #fff;
     font-size: 17px;
     padding: 7px 12px;
     font-weight: normal;
@@ -133,8 +143,8 @@ a:hover, a:focus {
 .ghost-button:hover,
 .ghost-button:active {
     color: #fff;
-    background: @link-color;
-    border: 1px solid @link-color;
+    background: darken(@link-color, 5%);
+    border: 1px solid darken(@link-color, 5%);
     text-decoration: none;
 }
 
@@ -339,7 +349,8 @@ border-bottom: 1px dotted #ddd;
 }
 
 .site-main {
-    padding: 32px;
+    padding: 20px;
+    padding-top: 0;
 }
 
 .site-page-home {
@@ -790,11 +801,16 @@ input[type="submit"]:hover {
 .sidebar {
     padding-top: 40px;
     padding-bottom: 40px;
+    
+}
+
+#primary-sidebar {
+    padding-right: 20px;
 }
 
 #primary-sidebar .container {
     padding-left: 0px;
-    padding-right: 0px;
+    padding-right: 00px;
 }
 
 #above-footer {
@@ -953,7 +969,7 @@ div.sharedaddy h3.sd-title {
     line-height: 1.7em;
     color: #777;
     text-align: center;
-    background: #161616;
+    border-top: 1px solid #eee;
 }
 
 .site-footer a {

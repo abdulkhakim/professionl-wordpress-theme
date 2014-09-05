@@ -26,6 +26,7 @@ and Blueprint http://www.blueprintcss.org/
 .heading-font {
   line-height: 1.25;
   font-weight: 400;
+  font-family: 'Lato', sans-serif;
 }
 .maxed-width {
   width: 100%;
@@ -36,7 +37,7 @@ and Blueprint http://www.blueprintcss.org/
 /* Bootstrap Style overrides */
 body,
 table {
-  background-color: #ffffff;
+  background-color: #eaeaea;
   overflow-x: hidden;
   /* Prevent scroll on narrow devices */
 
@@ -53,6 +54,7 @@ h4,
 .h4 {
   line-height: 1.25;
   font-weight: 400;
+  font-family: 'Lato', sans-serif;
 }
 h1,
 h2,
@@ -63,6 +65,7 @@ h6 {
   color: #333;
   line-height: 1.25;
   font-weight: 400;
+  font-family: 'Lato', sans-serif;
 }
 h1.entry-title,
 h1.page-title,
@@ -100,6 +103,14 @@ a:hover,
 a:focus {
   color: #1a99e2;
 }
+#page {
+  background: #fff;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
 .container {
   width: 100%;
   max-width: 1200px;
@@ -120,13 +131,16 @@ a:focus {
   margin: 0;
 }
 #header-widget p {
+  font-size: 15px;
   margin-bottom: 10px;
 }
 #header-widget .fa {
   margin-left: 8px;
 }
 .ghost-button {
+  background: #2fa4e7;
   border: 1px solid #2fa4e7;
+  color: #fff;
   font-size: 17px;
   padding: 7px 12px;
   font-weight: normal;
@@ -137,8 +151,8 @@ a:focus {
 .ghost-button:hover,
 .ghost-button:active {
   color: #fff;
-  background: #2fa4e7;
-  border: 1px solid #2fa4e7;
+  background: #1a99e2;
+  border: 1px solid #1a99e2;
   text-decoration: none;
 }
 .ghost-button-white,
@@ -311,7 +325,8 @@ a:focus {
   background: #ffffff;
 }
 .site-main {
-  padding: 32px;
+  padding: 20px;
+  padding-top: 0;
 }
 .site-page-home {
   padding: 0;
@@ -744,9 +759,12 @@ input[type="submit"]:hover {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+#primary-sidebar {
+  padding-right: 20px;
+}
 #primary-sidebar .container {
   padding-left: 0px;
-  padding-right: 0px;
+  padding-right: 00px;
 }
 #above-footer {
   width: 100%;
@@ -796,6 +814,7 @@ input[type="submit"]:hover {
   color: #474747;
   line-height: 1.25;
   font-weight: 400;
+  font-family: 'Lato', sans-serif;
 }
 .widget-title a {
   color: inherit;
@@ -956,7 +975,7 @@ div.sharedaddy h3.sd-title {
   line-height: 1.7em;
   color: #777;
   text-align: center;
-  background: #161616;
+  border-top: 1px solid #eee;
 }
 .site-footer a {
   color: #a2a2a2;
