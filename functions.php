@@ -146,7 +146,7 @@ function developr_scripts() {
     //wp_enqueue_style( 'roboto-condensed', '//fonts.googleapis.com/css?family=Roboto+Condensed');
     //wp_enqueue_style( 'roboto', '//fonts.googleapis.com/css?family=Roboto:300,400,600');
     //wp_enqueue_style( 'roboto-slab', '//fonts.googleapis.com/css?family=Roboto+Slab');
-    wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/yeti/bootstrap.min.css' );
+    wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/cerulean/bootstrap.min.css' );
     wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' );
 	wp_enqueue_style( 'professionl-style', get_stylesheet_uri(), NULL, "0.9.2" );
 

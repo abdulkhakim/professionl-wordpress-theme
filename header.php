@@ -25,11 +25,27 @@
 <div id="page" class="hfeed site">
     
     <?php do_action( 'before' ); ?>
+      <header>
+          <div class="container">
+                <a href="<?php echo home_url(); ?>" rel="home">
+                            <?php if(!ot_get_option('custom-image')) {
+                                        bloginfo('name'); 
+                                  }
+                                  else {
+                            ?>
+				               <h1 class="brand-text-h1"><span class="screen-reader-text"><?php bloginfo('name') ?></span><img src="<?php echo ot_get_option('custom-image'); ?>" alt="<?php bloginfo('name') ?>" title="<?php bloginfo('name') ?>"/></h1>
+                            <?php } ?>
+                </a>
+              
+              <?php if ( !ot_get_option('site-description') ): ?><h2 class="site-description"><?php bloginfo( 'description' ); ?></h2><?php endif; ?>
+          </div>
+      </header>
       <div id="topbar">
-        <?php if (has_nav_menu('primary')): ?>
-            <nav class="navbar navbar-default navbar-static-top" role="navigation">
+          <div class="container">
+            <?php if (has_nav_menu('primary')): ?>
+            <nav class="navbar navbar-default" role="navigation">
                 <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="container">
+                
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                             <span class="sr-only">Toggle navigation</span>
@@ -38,9 +54,6 @@
                             <span class="icon-bar"></span>
                         </button>
 
-                        <a class="navbar-brand" href="<?php echo home_url(); ?>" rel="home">
-                            <h1 class="brand-text-h1"><?php bloginfo('name') ?></h1>
-                        </a>
                     </div>
                     
                     <div class="navbar-collapse collapse">
@@ -52,15 +65,15 @@
                                 'depth'             => 2,
                                 'container'         => 'div',
                                 'container_class'   => '',
-                                'menu_class'        => 'nav navbar-nav navbar-right',
+                                'menu_class'        => 'nav navbar-nav',
                                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                                 'walker'            => new wp_bootstrap_navwalker())
                             );
                         ?>
                     </div>
-                </div>
             </nav>
 		<?php endif; ?>
+        </div>
     </div>
 	<div class="<?php echo ( is_page_template( 'home-page.php' ) ) ? 'home-container' : 'container' ;?>">
         <div class="<?php echo ( is_page_template( 'home-page.php' ) ) ? '' : 'row' ;?>">

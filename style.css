@@ -36,7 +36,7 @@ and Blueprint http://www.blueprintcss.org/
 /* Bootstrap Style overrides */
 body,
 table {
-  background-color: #eeeeee;
+  background-color: #ffffff;
   overflow-x: hidden;
   /* Prevent scroll on narrow devices */
 
@@ -94,11 +94,11 @@ hr {
 }
 a,
 .link {
-  color: #009688;
+  color: #2fa4e7;
 }
 a:hover,
 a:focus {
-  color: #00b09f;
+  color: #1a99e2;
 }
 .container {
   width: 100%;
@@ -111,7 +111,7 @@ a:focus {
 }
 /*header */
 .ghost-button {
-  border: 1px solid #009688;
+  border: 1px solid #2fa4e7;
   font-size: 17px;
   padding: 7px 12px;
   font-weight: normal;
@@ -122,8 +122,8 @@ a:focus {
 .ghost-button:hover,
 .ghost-button:active {
   color: #fff;
-  background: #009688;
-  border: 1px solid #009688;
+  background: #2fa4e7;
+  border: 1px solid #2fa4e7;
   text-decoration: none;
 }
 .ghost-button-white,
@@ -226,14 +226,10 @@ a:focus {
 .brand-text-h1 span {
   margin-left: 50px;
 }
-.navbar-brand img {
-  line-height: 1;
+.brand-text-h1 img {
   margin: 0;
-  position: absolute;
-  top: 1px;
-  z-index: 10;
-  width: 42px;
-  height: 42px;
+  width: auto;
+  height: 120px;
 }
 .navbar {
   font-size: 15px;
@@ -241,10 +237,11 @@ a:focus {
   margin-bottom: 0;
 }
 .site-description {
-  font-size: 30px;
+  font-size: 12px;
   font-weight: 300;
-  color: #999;
-  margin-top: 12px;
+  color: #aaa;
+  margin-left: 16px;
+  margin-top: 0px;
   margin-bottom: 12px;
 }
 .social-flare-container {
@@ -448,7 +445,7 @@ big,
 /* =Content
 ----------------------------------------------- */
 .sticky .fa-star {
-  color: #009688;
+  color: #2fa4e7;
 }
 .hentry {
   margin: 0 0 0;
@@ -712,10 +709,10 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  border: 1px solid #009688;
+  border: 1px solid #2fa4e7;
 }
 input[type="submit"] {
-  background: #009688;
+  background: #2fa4e7;
   color: #fff;
   padding: 8px 14px;
   font-weight: 600;
@@ -724,7 +721,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 input[type="submit"]:hover {
-  background: #007d71;
+  background: #1a99e2;
 }
 /* =Widgets
 ----------------------------------------------- */
@@ -769,7 +766,7 @@ input[type="submit"]:hover {
   text-decoration: none;
 }
 #primary-sidebar .widget a:hover {
-  color: #009688;
+  color: #2fa4e7;
 }
 #primary-sidebar .widget-title {
   background: #fbfbfb;
@@ -800,7 +797,7 @@ input[type="submit"]:hover {
 /* ------------------------------------ */
 .widget_calendar a {
   font-weight: 600;
-  color: #009688;
+  color: #2fa4e7;
 }
 .widget_calendar a:hover {
   color: #444!important;
@@ -809,7 +806,7 @@ input[type="submit"]:hover {
   width: 100%;
 }
 .widget_calendar caption {
-  background: #009688;
+  background: #2fa4e7;
   color: #fff;
   padding: 5px 10px;
 }
@@ -924,16 +921,16 @@ div.sharedaddy h3.sd-title {
   font-weight: normal!important;
 }
 .wp-pagenavi a {
-  color: #009688;
+  color: #2fa4e7;
   border: none!important;
-  border: 1px solid #009688 !important;
+  border: 1px solid #2fa4e7 !important;
 }
 .wp-pagenavi a:hover,
 .wp-pagenavi a:active,
 .wp-pagenavi span.current {
-  background: #009688;
+  background: #2fa4e7;
   border: none!important;
-  border: 1px solid #009688 !important;
+  border: 1px solid #2fa4e7 !important;
 }
 /* Footer */
 .site-footer {

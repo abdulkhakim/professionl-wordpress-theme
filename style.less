@@ -26,8 +26,8 @@ and Blueprint http://www.blueprintcss.org/
 ----------------------------------------------- */
 
 @dark-color: #181818;
-@link-color: #009688;
-@body-color: #eee;
+@link-color: #2fa4e7;
+@body-color: #fff;
 @content-background: #fff;
 @padding: 24px;
 @content-width: 1200px;
@@ -88,7 +88,7 @@ a,
   color: @link-color;
 }
 a:hover, a:focus {
-  color: lighten(@link-color, 5%);
+  color: darken(@link-color, 5%);
 }
 
 .container {
@@ -241,24 +241,21 @@ font-size: 21px;
 .brand-text-h1 span {
     margin-left: 50px;
 }
-.navbar-brand img {
-    line-height: 1;
+.brand-text-h1 img {
     margin: 0;
-    position: absolute;
-    top: 1px;
-    z-index: 10;
-    width: 42px;
-    height: 42px;
+    width: auto;
+    height: 120px;
 }
 .navbar {
     font-size: 15px;
     font-weight: 400;
     margin-bottom: 0;
 }.site-description {
-    font-size: 30px;
+    font-size: 12px;
     font-weight: 300;
-    color: #999;
-    margin-top: @padding / 2;
+    color: #aaa;
+    margin-left: 16px;
+    margin-top: 0px;
     margin-bottom: @padding / 2;
 }
 
