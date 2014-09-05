@@ -62,7 +62,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #333;
+  color: #444;
   line-height: 1.25;
   font-weight: 400;
   font-family: 'Lato', sans-serif;
@@ -124,7 +124,12 @@ a:focus {
 #header-widget {
   float: right;
   margin-top: 12px;
+  margin-right: 20px;
+  padding: 0 20px;
   text-align: right;
+  border-radius: 4px;
+  background: #fafafa;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
 #header-widget .widget {
   color: #444;
@@ -136,6 +141,9 @@ a:focus {
 }
 #header-widget .fa {
   margin-left: 8px;
+}
+#topbar {
+  margin-top: 10px;
 }
 .ghost-button {
   background: #2fa4e7;
@@ -329,9 +337,12 @@ a:focus {
   padding-top: 0;
 }
 .site-page-home {
-  padding: 0;
+  padding: 0 20px;
   margin-top: -40px;
   margin-bottom: -40px;
+}
+.site-page-home .entry-content img.aligncenter {
+  margin-top: 0px;
 }
 .site-main article {
   position: relative;
@@ -803,8 +814,9 @@ input[type="submit"]:hover {
 }
 #primary-sidebar .widget-title {
   background: #fbfbfb;
-  border: 1px dotted #bbb;
+  border: 1px solid #eee;
   padding: 6px 15px 8px;
+  border-radius: 4px;
 }
 .widget-title {
   text-transform: uppercase;

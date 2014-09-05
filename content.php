@@ -19,7 +19,7 @@
 	<?php if ( has_post_thumbnail() && ( ot_get_option('post-text') != 'content' ) ): ?>
         <div class="post-thumbnail">
             <a href="<?php the_permalink(); ?>" rel="bookmark">
-			    <?php the_post_thumbnail('thumb-medium'); ?>
+			    <?php the_post_thumbnail('thumb-large'); ?>
             </a>
 	    </div><!--/.post-thumbnail-->
 	<?php endif; ?>
