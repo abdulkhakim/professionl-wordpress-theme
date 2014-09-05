@@ -152,7 +152,7 @@ add_action( 'widgets_init', 'developr_widgets_init' );
  */
 function developr_scripts() {
     //wp_enqueue_style( 'open-sans', '//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,700');
-    wp_enqueue_style( 'lato', '//fonts.googleapis.com/css?family=Lato');
+    wp_enqueue_style( 'lato', '//fonts.googleapis.com/css?family=Lato:300,400');
     //wp_enqueue_style( 'roboto-condensed', '//fonts.googleapis.com/css?family=Roboto+Condensed');
     //wp_enqueue_style( 'roboto', '//fonts.googleapis.com/css?family=Roboto:300,400,600');
     //wp_enqueue_style( 'roboto-slab', '//fonts.googleapis.com/css?family=Roboto+Slab');

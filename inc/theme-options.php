@@ -66,6 +66,10 @@ function custom_theme_options() {
 			'id'		=> 'footer',
 			'title'		=> 'Footer'
 		),
+        array(
+			'id'		=> 'front',
+			'title'		=> 'Front Page'
+		),
 		array(
 			'id'		=> 'social-links',
 			'title'		=> 'Social Links'
@@ -187,36 +191,21 @@ function custom_theme_options() {
 				)
 			)
 		),
-		// Layout : Default Page
+		// Front Page
 		array(
-			'id'		=> 'layout-page',
-			'label'		=> 'Default Page',
-			'desc'		=> '[ <strong>is_page</strong> ] Default page layout - If a page has a set layout, it will override this.',
-			'std'		=> 'inherit',
-			'type'		=> 'radio-image',
-			'section'	=> 'layout',
-			'choices'	=> array(
-				array(
-					'value'		=> 'inherit',
-					'label'		=> 'Inherit Global Layout',
-					'src'		=> get_template_directory_uri() . '/functions/images/layout-off.png'
-				),
-				array(
-					'value'		=> 'col-1c',
-					'label'		=> '1 Column',
-					'src'		=> get_template_directory_uri() . '/functions/images/col-1c.png'
-				),
-				array(
-					'value'		=> 'col-2cl',
-					'label'		=> '2 Column Left',
-					'src'		=> get_template_directory_uri() . '/functions/images/col-2cl.png'
-				),
-				array(
-					'value'		=> 'col-2cr',
-					'label'		=> '2 Column Right',
-					'src'		=> get_template_directory_uri() . '/functions/images/col-2cr.png'
-				)
-			)
+			'id'		=> 'promo-image',
+			'label'		=> 'Promotional Image',
+			'desc'		=> 'Recommended size is 1200px by 600px',
+			'type'		=> 'upload',
+			'section'	=> 'front'
+		),
+        array(
+			'id'		=> 'promo-text',
+			'label'		=> 'Promotional Text',
+			'desc'		=> 'Recommended 4 lines of text',
+			'type'		=> 'textarea',
+            'rows' => '5',
+			'section'	=> 'front'
 		),
 		// Social Links : List
 		array(

@@ -17,6 +17,14 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main site-page site-page-home" role="main">
+            <div class="home-hero">
+                <img class="hero-img" src="<?php echo ot_get_option('promo-image'); ?>" alt="<?php bloginfo('name') ?>"/>
+                <div class="hero-intro container">
+                    <h2>
+                        <?php echo ot_get_option('promo-text'); ?>
+                    </h2>
+                </div>
+            </div>
             <div class="container">
 			    <?php while ( have_posts() ) : the_post(); ?>
 

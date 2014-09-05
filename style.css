@@ -196,20 +196,32 @@ a:focus {
 }
 .hero-img {
   width: 100%;
-  max-width: 930px;
 }
 .hero-intro {
   position: absolute;
   bottom: 0;
+  left: 0;
   margin-top: 12px;
-  margin-bottom: 6px;
+}
+.hero-intro p {
+  margin: 0;
 }
 .hero-intro h2 {
-  text-align: center;
-  color: #fff;
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+  text-align: left;
+  text-transform: uppercase;
+  color: #eaeaea;
   padding: 24px;
-  font-size: 80px;
+  font-size: 24px;
+  margin-bottom: 0;
   font-weight: 300;
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  display: inline-block;
+  border-radius: 4px;
 }
 .home-intro {
   padding: 50px 0;
@@ -281,15 +293,14 @@ a:focus {
   margin-bottom: 0;
 }
 .site-description {
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
   font-size: 13px;
-  font-weight: 300;
   color: #777;
   margin-left: 16px;
   margin-top: 0px;
   margin-bottom: 12px;
-  line-height: 1.25;
-  font-weight: 400;
-  font-family: 'Lato', sans-serif;
 }
 .social-flare-container {
   bottom: -20px;
@@ -347,6 +358,7 @@ a:focus {
   padding-top: 0;
 }
 .site-page-home {
+  padding: 0;
   margin-top: -40px;
   margin-bottom: -40px;
 }
