@@ -222,6 +222,22 @@ function custom_theme_options() {
             'rows' => '7',
 			'section'	=> 'front'
 		),
+        array(
+			'id'		=> 'description1-text',
+			'label'		=> 'Description 1',
+			'desc'		=> 'Put Description here',
+			'type'		=> 'textarea',
+            'rows' => '14',
+			'section'	=> 'front'
+		),
+        array(
+			'id'		=> 'description2-text',
+			'label'		=> 'Description 2',
+			'desc'		=> 'Put Additional Description here',
+			'type'		=> 'textarea',
+            'rows' => '14',
+			'section'	=> 'front'
+		),
 		// Social Links : List
 		array(
 			'id'		=> 'social-links',

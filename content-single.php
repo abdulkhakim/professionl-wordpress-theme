@@ -29,6 +29,6 @@
 	</div><!-- .entry-content -->
 
 	<footer class="entry-meta">
-			<?php the_tags('<p class="post-tags"><span>'.__('TAGS:','professionl').'</span> <span class="label label-default">','</span> <span class="label label-default">','</span></p>'); ?>
+			<?php the_tags('<p class="post-tags"><span>'.__('TAGS:','professionl').'</span> <span class="">','</span> <span class="">','</span></p>'); ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->

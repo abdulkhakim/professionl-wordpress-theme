@@ -31,19 +31,15 @@ get_header(); ?>
                      <?php echo ot_get_option('profile-text'); ?>
                  </div>
             </div>
-            <div class="container">
-			    <?php while ( have_posts() ) : the_post(); ?>
-
-				    <?php get_template_part( 'content', 'page' ); ?>
-
-				    <?php
-					    // If comments are open or we have at least one comment, load up the comment template
-					    if ( comments_open() || '0' != get_comments_number() ) :
-						    comments_template();
-					    endif;
-				    ?>
-
-			    <?php endwhile; // end of the loop. ?>
+            <div class="description-intro home-intro">
+                 <div class="container">
+                     <?php echo ot_get_option('description1-text'); ?>
+                 </div>
+            </div>
+            <div class="description2-intro home-intro">
+                 <div class="container">
+                     <?php echo ot_get_option('description2-text'); ?>
+                 </div>
             </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->

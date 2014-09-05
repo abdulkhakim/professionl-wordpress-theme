@@ -244,6 +244,34 @@ a:focus {
   font-size: 17px;
   font-weight: normal;
 }
+.description-intro {
+  background: #eaeaea;
+  color: #5a5a5a;
+}
+.description-intro ul {
+  list-style: none;
+  line-height: 1.25;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+.description-intro ul li {
+  margin-bottom: 8px;
+  color: #5a5a5a;
+}
+.description2-intro,
+.description2-intro table {
+  background: #fafafa;
+  color: #5a5a5a;
+  line-height: 1.25;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+}
+.description2-intro table {
+  margin-bottom: 0;
+}
+.description2-intro td {
+  border: none !important;
+}
 .intro-title-link {
   font-weight: normal;
   color: #888;
