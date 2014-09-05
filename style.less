@@ -218,6 +218,12 @@ a:hover, a:focus {
     border-radius: 4px;
 }
 
+.profile-image {
+    width: 200px;
+    height: auto;
+    margin-right: 30px;
+}
+
 .home-intro {
     padding: 50px 0;
     font-size: 16px;
@@ -250,7 +256,17 @@ a:hover, a:focus {
 }
 
 .small-intro {
-    background: #eee;
+    background: @link-color;
+    color: #fff;
+}
+
+.small-intro h1, .small-intro h2, .small-intro h3, .small-intro h4 {
+    color: #eee;
+    font-weight: 300;
+}
+
+.small-intro h2 {
+    font-weight: 400;
 }
 
 .work-intro {

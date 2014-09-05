@@ -25,6 +25,12 @@ get_header(); ?>
                     </h2>
                 </div>
             </div>
+            <div class="small-intro home-intro">
+                 <div class="container">
+                     <img class="pull-right img-circle profile-image" src="<?php echo ot_get_option('profile-image'); ?>" alt="<?php bloginfo('name') ?>"/>
+                     <?php echo ot_get_option('profile-text'); ?>
+                 </div>
+            </div>
             <div class="container">
 			    <?php while ( have_posts() ) : the_post(); ?>
 

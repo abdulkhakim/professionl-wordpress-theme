@@ -223,6 +223,11 @@ a:focus {
   display: inline-block;
   border-radius: 4px;
 }
+.profile-image {
+  width: 200px;
+  height: auto;
+  margin-right: 30px;
+}
 .home-intro {
   padding: 50px 0;
   font-size: 16px;
@@ -247,7 +252,18 @@ a:focus {
   text-decoration: none;
 }
 .small-intro {
-  background: #eee;
+  background: #2fa4e7;
+  color: #fff;
+}
+.small-intro h1,
+.small-intro h2,
+.small-intro h3,
+.small-intro h4 {
+  color: #eee;
+  font-weight: 300;
+}
+.small-intro h2 {
+  font-weight: 400;
 }
 .work-intro {
   background: #fff;

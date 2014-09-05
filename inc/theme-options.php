@@ -207,6 +207,21 @@ function custom_theme_options() {
             'rows' => '5',
 			'section'	=> 'front'
 		),
+        array(
+			'id'		=> 'profile-image',
+			'label'		=> 'Profile Image',
+			'desc'		=> 'Recommended size is 200px by 200px',
+			'type'		=> 'upload',
+			'section'	=> 'front'
+		),
+        array(
+			'id'		=> 'profile-text',
+			'label'		=> 'Profile Text',
+			'desc'		=> 'Recommended 4 lines of text',
+			'type'		=> 'textarea',
+            'rows' => '7',
+			'section'	=> 'front'
+		),
 		// Social Links : List
 		array(
 			'id'		=> 'social-links',
