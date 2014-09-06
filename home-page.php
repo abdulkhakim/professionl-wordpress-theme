@@ -19,7 +19,7 @@ get_header(); ?>
 		<main id="main" class="site-main site-page site-page-home" role="main">
             <div class="home-hero">
                 <img class="hero-img" src="<?php echo ot_get_option('promo-image'); ?>" alt="<?php bloginfo('name') ?>"/>
-                <div class="hero-intro container">
+                <div class="container hero-intro">
                     <h2 class="animated fadeInDown">
                             <?php echo ot_get_option('promo-text'); ?>
                     </h2>
